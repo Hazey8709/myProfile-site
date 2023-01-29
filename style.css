@@ -9,7 +9,6 @@ body {
 
 /*!                   Mobile Version                          */
 @media only screen and (max-width: 500px) {
-
     /*?   (M)      Nav Bar           */
     #nav {
         /* border: 0.1rem solid blue; */
@@ -134,11 +133,12 @@ body {
     .text {
         margin-top: 5rem;
     }
+
+    /*? (M)      About Page Content            */
 }
 
 /*!            Laptop Full  Screen up to 1730px                     */
 @media only screen and (min-width: 500px) and (max-width: 1730px) {
-
     /*?  (L)         Nav Bar (Top Bar)          */
     #nav {
         /* border: 0.1rem solid blue; */
@@ -178,6 +178,7 @@ body {
     /*?  (L)          Profile Bar (Left Vertical Bar)            */
     #profileBar {
         position: fixed;
+
         /* border: 0.1rem solid red; */
         background-color: #0005; /*!  change back to black after  */
         margin-top: 4rem;
@@ -288,5 +289,20 @@ body {
 
     .text {
         margin-top: 5rem;
+    }
+
+    /*? (L)     About Page Content            */
+    #mainContent {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border: 0.1rem solid red;
+        /* background-color: aquamarine; */
+        height: 30rem;
+        width: 40rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+
+        /* margin-left: 15rem; */
     }
 }
