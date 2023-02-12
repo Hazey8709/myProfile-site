@@ -109,32 +109,27 @@ body {
         padding: 0.5rem;
     }
 
-    /*?  (M)        about Content            */
-    #mainCont {
+    #pageLinksCont {
         text-align: center;
-        /* height: 100%; */
-    }
-
-    .homeTitle {
-        /* border: 1px solid red; */
-        border-radius: 10rem;
-        background-color: black;
-        color: white;
-        margin: 0 auto;
         margin-top: 1rem;
-        font-size: 48px;
+        padding: .2rem;
+    }
+
+    .linkPage {
+        border-radius: 0.1rem;
+        background-color: white;
         padding: 0.1rem;
+        margin: .5rem;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
     }
 
-    .homeText {
-        margin-top: 5rem;
-    }
-
-    .text {
-        margin-top: 5rem;
-    }
+    /*?  (M)        about Content            */
 }
 
+/**     -------------------------------------------------------------*/
 /*!            Laptop Full  Screen up to 1730px                     */
 @media only screen and (min-width: 500px) and (max-width: 1730px) {
     /*?  (L)         Nav Bar (Top Bar)          */
