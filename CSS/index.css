@@ -12,6 +12,7 @@ body {
     /*?   (M)      Nav Bar           */
     #nav {
         /* border: 0.1rem solid blue; */
+        /* position: fixed; */
         background-color: black;
         width: 100%;
         height: 4rem;
@@ -109,10 +110,28 @@ body {
         padding: 0.5rem;
     }
 
-    /*?  (M)        Home Main Content            */
-    #mainCont {
+    /*?   Link Pages    */
+    #linkPagesCont {
+        /* border: 0.1rem solid white; */
+        border-radius: 0.1rem;
         text-align: center;
-        /* height: 100%; */
+        margin-top: 1rem;
+    }
+
+    .linkPage {
+        color: white;
+        margin: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .linkPage:hover {
+        color: red;
+    }
+
+    /*?  (M)        Index Main Content            */
+    #mainCont {
+        padding: 1rem;
     }
 
     .homeTitle {
@@ -120,21 +139,17 @@ body {
         border-radius: 10rem;
         background-color: black;
         color: white;
+        text-align: center;
         margin: 0 auto;
         margin-top: 1rem;
         font-size: 48px;
-        padding: 0.1rem;
-    }
-
-    .homeText {
-        margin-top: 5rem;
+        padding: 0.3rem;
     }
 
     .text {
-        margin-top: 5rem;
+        text-align: center;
+        margin-top: 2rem;
     }
-
-    /*? (M)      About Page Content            */
 }
 
 /*!            Laptop Full  Screen up to 1730px                     */
@@ -246,7 +261,7 @@ body {
         padding: 0.5rem;
     }
 
-    #linkPages {
+    #linkPagesCont {
         display: flex;
         flex-direction: column;
         border: 1px solid white;
@@ -291,7 +306,7 @@ body {
         margin-top: 5rem;
     }
 
-    /*? (L)     About Page Content            */
+    /*? (L)     About Page Content */
     #mainContent {
         display: flex;
         flex-direction: column;

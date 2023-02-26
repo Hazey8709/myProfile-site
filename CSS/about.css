@@ -109,24 +109,91 @@ body {
         padding: 0.5rem;
     }
 
+    /*?     Page Links        */
     #pageLinksCont {
+        border-radius: 0.1rem;
         text-align: center;
         margin-top: 1rem;
-        padding: .2rem;
     }
 
     .linkPage {
-        border-radius: 0.1rem;
-        background-color: white;
-        padding: 0.1rem;
-        margin: .5rem;
+        color: white;
+        margin: 1rem;
         text-decoration: none;
-        color: black;
         font-weight: bold;
-
     }
 
-    /*?  (M)        about Content            */
+    .linkPage:hover {
+        color: red;
+    }
+
+    /*?   Page Title    */
+    .pageTitle {
+        border: 0.1rem solid red;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 32px;
+    }
+
+    /*?        Main Content        */
+    .aboutCont {
+        border: 0.1rem solid black;
+        border-radius: 0.5rem;
+        background-color: #e6e3e3;
+        width: 18rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .aboutCont > p {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    /*?      Free Time Card       */
+    .freeTimeCont {
+        border: 0.1rem solid black;
+        border-radius: 0.5rem;
+        background-color: #e6e3e3;
+        width: 18rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .freeTimeCont > h3 {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 0.5rem;
+    }
+
+    .freeTimeCont > p {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    /*?        Other Card        */
+    .otherCont {
+        border: 0.1rem solid black;
+        border-radius: 0.5rem;
+        background-color: #e6e3e3;
+        width: 18rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .otherCont > h3 {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 0.5rem;
+    }
+
+    .otherCont > p {
+        text-align: center;
+        padding: 0.5rem;
+    }
 }
 
 /**     -------------------------------------------------------------*/
