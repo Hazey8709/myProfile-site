@@ -1,11 +1,12 @@
 {
-  "name": "jordans-profile",
-  "version": "1.0.0",
-  "description": "my web development profile project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jordan",
-  "license": "MIT"
+    "name": "jordans-profile",
+    "version": "1.0.0",
+    "description": "My web development profile project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": ""
+    },
+    "author": "Jordan",
+    "license": "MIT"
 }
