@@ -29,7 +29,7 @@ body {
     }
 
     .navBtns {
-        /* border: 1px solid black; */
+        border: 0.1rem outset white;
         border-radius: 0.4rem;
         background-color: white;
         color: black;
@@ -220,7 +220,7 @@ body {
     }
 
     .navBtns {
-        /* border: 1px solid black; */
+        border: 0.1rem outset white;
         border-radius: 0.4rem;
         background-color: white;
         color: black;

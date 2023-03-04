@@ -30,7 +30,7 @@ body {
     }
 
     .navBtns {
-        /* border: 1px solid black; */
+        border: 0.1rem outset white;
         border-radius: 0.4rem;
         background-color: white;
         color: black;
@@ -75,9 +75,10 @@ body {
         margin-bottom: 2rem;
     }
 
-    /**       All Cards         */
+    /**       All Cards     (1-14)    */
     main > div {
-        border: 0.1rem solid blue;
+        border: 0.1rem inset;
+        background-color: #d0d3d4;
         border-radius: 0.2rem;
         width: 18rem;
         margin: 0 auto;
@@ -85,133 +86,22 @@ body {
         text-align: center;
     }
 
-    /**       Card   #1       */
-    .card1Cont > h4 {
-        text-align: center;
-    }
-
-    .htmlList > li {
+    div li {
         display: inline-block;
         margin: 0.5rem;
     }
 
-    /**       Card   #2       */
-    .card2Cont > h4 {
-        text-align: center;
+    div h4 {
+        background-color: #0005;
+        color: white;
     }
 
-    .cssList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #3       */
-    .card3Cont > h4 {
-        text-align: center;
-    }
-
-    .jsList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #4       */
-    .card4Cont > h4 {
-        text-align: center;
-    }
-
-    .pmList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #5       */
-    .card5Cont > h4 {
-        text-align: center;
-    }
-
-    .fwList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #6       */
-    .card6Cont > h4 {
-        text-align: center;
-    }
-
-    .cssFwList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #7       */
-    .card7Cont > h4 {
-        text-align: center;
-    }
-
-    .mbList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #8       */
-    .card8Cont > h4 {
-        text-align: center;
-    }
-
-    .cList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #9       */
-    .card9Cont > h4 {
-        text-align: center;
-    }
-
-    .dbList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #10       */
-    .card10Cont > h4 {
-        text-align: center;
-    }
-
-    .msList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #11       */
-    .card11Cont > h4 {
-        text-align: center;
-    }
-
-    .apiList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #12       */
-    .card12Cont > h4 {
-        text-align: center;
-    }
-
-    .vcList > li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    /**       Card   #13       */
-    .card13Cont > h4 {
-        text-align: center;
-    }
-
-    .oeList > li {
-        display: inline-block;
-        margin: 0.5rem;
+    div p {
+        height: 0;
+        width: 0;
+        border-left: 60px solid #0005;
+        border-right: 30px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-top: 0.5rem solid #0005;
     }
 }
