@@ -147,6 +147,10 @@ body {
         padding: 0.3rem;
     }
 
+    .autoInput {
+        font-size: 38px;
+    }
+
     .text {
         text-align: center;
         margin-top: 2rem;
