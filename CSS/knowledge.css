@@ -77,7 +77,7 @@ body {
 
     /**       All Cards     (1-14)    */
     main > div {
-        border: 0.1rem inset;
+        border: 0.2rem inset;
         background-color: #d0d3d4;
         box-shadow: 1px 1px 10px 1px white;
         border-radius: 0.2rem;
