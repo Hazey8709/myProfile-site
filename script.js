@@ -1,5 +1,4 @@
-window.onbeforeunload = () => {
-    for (const form of document.getElementById("formCont")) {
-        form.reset();
-    }
-};
+//*  Reset Form (Contact.html)
+function resetForm() {
+    document.getElementById("formCont").reset();
+}

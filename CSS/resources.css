@@ -67,42 +67,5 @@ body {
         color: red;
     }
 
-    /*!           Main Content             */
-    main > h1 {
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    /**       All Cards     (1-14)    */
-    main > div {
-        border: 0.1rem inset;
-        background-color: #d0d3d4;
-        box-shadow: 1px 1px 10px 1px white;
-        border-radius: 0.2rem;
-        width: 18rem;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
-    div li {
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    div h4 {
-        background-color: #0005;
-        color: white;
-    }
-
-    div p {
-        height: 0;
-        width: 0;
-        border-left: 60px solid #0005;
-        border-right: 30px solid transparent;
-        border-bottom: 0px solid transparent;
-        border-top: 0.5rem solid #0005;
-    }
+    
 }

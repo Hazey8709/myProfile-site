@@ -122,11 +122,32 @@ body {
         padding: 0.5rem;
     }
 
-    /**      Form      */
+    /**     Form Title     */
+    .formTitle {
+        /* border: .1rem outset black; */
+        border-radius: 0.5rem;
+        /* background-color: #0005; */
+        color: black;
+        margin-top: 0.5rem;
+    }
+
+    .formTitle a {
+        border: 0.1rem outset black;
+        border-radius: 0.3rem;
+        background-color: #0005;
+        color: white;
+        box-shadow: -2px -2px 5px 2px;
+        padding: 0.1rem;
+        text-decoration: none;
+        margin-left: 0.3rem;
+    }
+
+    /**      Form          */
     #formCont {
         border: 0.1rem outset white;
         border-radius: 0.3rem;
         background-color: #0005;
+        box-shadow: 5px 0px 20px 3px white;
         margin: 0 auto;
         margin-top: 2rem;
         padding: 0.5rem;
