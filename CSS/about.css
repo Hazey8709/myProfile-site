@@ -62,7 +62,7 @@ body {
 
     /*?   (M)            Links          */
     .iconLinksCont {
-        /* border: 1px solid yellow; */
+        border: 0.1rem outset white;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: row;
@@ -75,7 +75,8 @@ body {
     }
 
     .iconLinksCont > a:hover {
-        background-color: grey;
+        border: 0.1rem outset black;
+        background-color: rgb(169, 168, 168);
         border-radius: 0.5rem;
     }
 
