@@ -132,7 +132,7 @@ body {
 
     /*?  (M)         Main Content            */
     #mainCont {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .titleCont {
@@ -146,6 +146,12 @@ body {
         margin-top: 1rem;
         font-size: 48px;
         padding: 0.3rem;
+    }
+
+    /**     Auto Text       */
+    .autoInput {
+        font-size: 38px;
+        font-family: cursive;
     }
 
     /**      Flip Cards          */
@@ -196,11 +202,6 @@ body {
         background-color: rgba(0, 0, 0, 0.596);
         color: white;
         transform: rotateY(180deg);
-    }
-
-    /**     Auto Text       */
-    .autoInput {
-        font-size: 38px;
     }
 
     .text {
